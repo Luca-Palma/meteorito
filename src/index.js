@@ -1,10 +1,10 @@
-import Escena1 from "/src/scenes/Escena1.js";
+import Escena1 from './scenes/Escena1.js';
 let config = { 
     type: Phaser.AUTO, 
     width: 800, 
     height: 600, 
     physics:{ 
-        default: 'arcade',
+        default: "arcade",
         arcade: { 
             gravity: {y:0}, 
             debug: false 

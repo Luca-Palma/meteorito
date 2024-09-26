@@ -7,9 +7,9 @@ class Escena1 extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('cielo', '/public/resource/img/cielo.png'); 
-        this.load.image('nave', '../public/resource/img/naveespacial.png'); 
-        this.load.image('meteoro', '../public/resource/img/meteoro.png'); 
+        this.load.image('cielo', '/public/resource/cielo.png'); 
+        this.load.image('nave', '../public/resource/nave3.png'); 
+        this.load.image('meteoro', '../public/resource/meteoro2.png'); 
     }
 
     create() {
@@ -47,3 +47,5 @@ class Escena1 extends Phaser.Scene {
         console.log('Game Over'); 
     }
 }
+
+export default Escena1;
