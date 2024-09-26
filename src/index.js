@@ -1,4 +1,4 @@
-import Escena1 from "./escenas/Escena1.js" 
+import Escena1 from "/src/scenes/Escena1.js";
 let config = { 
     type: Phaser.AUTO, 
     width: 800, 
